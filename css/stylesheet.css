@@ -1,8 +1,8 @@
 h1 {position: absolute;
     width: 400px;
     height: 20px;
-    left: 20px;
-    top: 90px;
+    left: 250px;
+    top: 190px;
     
     font-family: 'Poppins';
     font-style: normal;
@@ -15,8 +15,8 @@ h1 {position: absolute;
 h2 {position: absolute;
     width: 450px;
     height: 20px;
-    left: 20px;
-    top: 205px;
+    left: 250px;
+    top: 305px;
     
     font-family: 'Poppins';
     font-style: normal;
@@ -29,8 +29,8 @@ h2 {position: absolute;
 h3 {position: absolute;
     width: 400px;
     height: 20px;
-    left: 20px;
-    top: 240px;
+    left: 250px;
+    top: 340px;
     
     font-family: 'Poppins';
     font-style: normal;
@@ -43,8 +43,8 @@ h3 {position: absolute;
 h4 {position: absolute;
     width: 400px;
     height: 20px;
-    left: 20px;
-    top: 500px;
+    left: 250px;
+    top: 600px;
     
     font-family: 'Poppins';
     font-style: normal;
@@ -57,8 +57,8 @@ h4 {position: absolute;
 h5 {position: absolute;
     width: 550px;
     height: 50px;
-    left: 20px;
-    top: 630px;
+    left: 250px;
+    top: 730px;
     
     font-family: 'Poppins';
     font-style: normal;
@@ -71,8 +71,8 @@ h5 {position: absolute;
 h6 {position: absolute;
     width: 550px;
     height: 50px;
-    left: 20px;
-    top: 700px;
+    left: 250px;
+    top: 800px;
 
     font-family: 'Poppins';
     font-style: normal;
@@ -85,14 +85,14 @@ h6 {position: absolute;
 Footer {position: absolute;
     width: 500px;
     height: 150px;
-    left: 20px;
-    top: 920px;}
+    left: 250px;
+    top: 1020px;}
      
 header {position: absolute;
 
-width: 800px;
-height: 100px;
-left: 0px;
+width: 1300px;
+height: 150px;
+left: 5px;
 top: 0px;
 
 background: #95A7A8;
@@ -102,9 +102,9 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.2
 aside {box-sizing: border-box;
 
 position: absolute;
-width: 250px;
-height: 1200px;
-left: 800px;
+width: 300px;
+height: 1300px;
+left: 1305px;
 top: 0px;
 
 background: #DAE0E0;
@@ -115,6 +115,36 @@ img {position: absolute;
     width: 200px;
     height: 200px;
     left: calc(50% - 200px/2 + 1px);
-    top: calc(50% - 480px/2 - 350px);
+    top: calc(50% - 550px/2 - 350px);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 64px;}
+    border-radius: 100px;}
+
+article {
+    border-style: solid;
+    border-width: 645px;
+    border-color: rgb(167, 205, 255);
+    border-radius: 20px 20px 20px 20px;    
+  }
+
+menu {
+    position: absolute;
+    width: 100px;
+    height: 90px;
+    left: 5px;
+    top: 137px;
+    background-color: #49635e;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 6px;
+    /* identical to box height, or 133% */
+    color: #e6f1f1;
+
+    border-style: solid;
+    border-width: 2px;
+    border-left-width:2px;
+    border-right-width: 2px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 5px 5px 5px 5px;     
+}
