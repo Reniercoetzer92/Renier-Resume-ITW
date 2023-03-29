@@ -1,4 +1,4 @@
-﻿# RENCOE123_pto2301_GroupD_RenierCoetzer_ITW
+﻿# Renier Resume ITW
 
 #
 Mobile: 300px - 768px
